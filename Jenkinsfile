@@ -26,6 +26,7 @@ pipeline {
                     environment = params.deploy_to
                 }
             }
+            }
         stage('Deploy') {
             steps {
                  script{
